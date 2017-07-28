@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{be6fd89e-51ce-4bc1-a7b9-8925b560825a}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm</Extensions>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{d0cf904d-ede9-42c4-94c9-30e0b3b895e1}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc</Extensions>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{a282ac20-894c-4254-9448-2036b696f72e}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;jpg;jpeg;jpe;png;manifest</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\Cocos2dTest6.ico">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\CloseSelected.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\CloseNormal.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\HelloWorld.png">
+      <Filter>resource</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Cocos2dTest6.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Settings.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TetrisLayer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Log.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="TetrisFigureBase.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="TetrisFigure_I.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="TetrisGlass.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="TetrisFigureCreator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="TetrisFigure_O.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="TetrisFigure_T.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="TetrisFigure_S.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="TetrisFigure_Z.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="TetrisFigure_J.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="TetrisFigure_L.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HudLayer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="Settings.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\TetrisLayer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HudLayer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="Log.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="TetrisFigureBase.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="TetrisFigure_I.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="TetrisGlass.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="TetrisFigureCreator.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="TetrisFigure_O.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="TetrisFigure_T.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="TetrisFigure_S.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="TetrisFigure_Z.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="TetrisFigure_J.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="TetrisFigure_L.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
